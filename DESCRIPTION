@@ -1,0 +1,16 @@
+Package: AvvoTrafficPotential
+Type: Package
+Title: Avvo Traffic Potential
+Version: 0.1.0
+Authors@R: person("Rahul", "Dodhia", email = "rdodhia@avvo.com", role = c("aut", "cre"))
+Description: Clusters counties by census demographics to help find Avvo's traffic potentials by practice area.
+Depends:
+	shiny,
+	shinydashboard,
+	ggplot2,
+	HelperFunctions,
+	data.table
+Imports:
+License: What license is it under?
+LazyData: TRUE
+RoxygenNote: 5.0.1
